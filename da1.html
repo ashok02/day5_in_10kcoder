@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend and Backend Technologies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: orange;
+            color: white;
+            margin: 0;
+            padding: 20px 0;
+            font-size: 24px;
+        }
+
+        marquee {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #frontend {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr); /* 5 images per row */
+            gap: 20px; /* Spacing between images */
+            justify-content: center;
+            margin: 20px auto;
+            width: 90%; /* Center container with a max width */
+        }
+
+        img {
+            width: 150px;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            background-color: white;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1><marquee>Frontend Technologies</marquee></h1>
+    <div id="frontend">
+        <a href="https://www.w3schools.com/angular/" target="_blank">
+            <img src="./angular.png" alt="Angular">
+        </a>
+        <a href="https://www.w3schools.com/js/default.asp" target="_blank">
+            <img src="./js.png" alt="JavaScript">
+        </a>
+        <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+            <img src="./html_img.jpeg" alt="HTML">
+        </a>
+        <a href="https://www.w3schools.com/css/default.asp" target="_blank">
+            <img src="./css.jpeg" alt="CSS">
+        </a>
+        <a href="https://en.wikipedia.org/wiki/React_(software)" target="_blank">
+            <img src="./react.png" alt="React">
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">
+            <img src="./bootstrap-1.jpg" alt="Bootstrap">
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Npm" target="_blank">
+            <img src="./npm.png" alt="NPM">
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Flutter_(software)" target="_blank">
+            <img src="./Flutter.png" alt="Flutter">
+        </a>
+        <a href="https://en.wikipedia.org/wiki/JQuery" target="_blank">
+            <img src="./jQuery.png" alt="jQuery">
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Micro_frontend" target="_blank">
+            <img src="./Micro frontend.jpeg" alt="Micro Frontend">
+        </a>
+    </div>
+</body>
+</html>
